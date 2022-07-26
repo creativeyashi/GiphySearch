@@ -70,7 +70,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
                     return(
                         
                         <div className="item">                            
-                            <img src={gif} key={index}/>                     
+                            <img src={gif} key={index} alt=""/>                     
                      </div>   
                     )
                 })
